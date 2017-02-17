@@ -1,0 +1,153 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+html {
+	height: 100%;width:100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+}
+.wrapper {
+	width: 100%; /*1024px;this  erased  side  paddings*/
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+
+
+
+
+/* START  Header-----------------------------------------------------------------------------*/
+.header {
+	height: 100px;width:100%;
+	background: #FFE680;
+}
+
+/* Header END-----------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/* START Middle-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	padding: 0 0 100px;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.content {
+	padding: 0 0 0 370px;
+}
+.search img{width:33px;padding-top:15px;}
+#addItem  {display:none;} /*form  for adding  item*/
+#addBusket{width:113px;} /* image  with  busket  in hidden  form*/
+
+.accordion h3 {cursor:pointer;}
+.Img128px {width:270px;}
+/* Middle  END-----------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/* START Left Sidebar-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 350px;
+	margin-left: -100%;
+	position: relative;
+	background: #B5E3FF; height: 100%;
+}
+
+#left    {margin-left:10px;padding-top:15px;}
+#left a  {color:black; font-size:12px;margin-left:10px;display: block;  margin-top:-1%}
+#left h1 {font-size:16px;}
+/* Left Sidebar END
+-----------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+/* START Footer-----------------------------------------------------------------------------*/
+.footer {
+	width: 100%; /*1024px;*/
+	margin: -100px auto 0;
+	height: 80px;
+	background: #BFF08E;
+	position: relative;
+}
+/* Footer  END
+-----------------------------------------------------------------------------*/
